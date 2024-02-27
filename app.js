@@ -10,7 +10,6 @@ function getElement(selection) {
 
 function Gallery(element){
   this.list = [...element.querySelectorAll(".img")];
-  console.log(this.list);
 }
 
 const nature = new Gallery(getElement(".nature"));
