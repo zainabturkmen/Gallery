@@ -9,5 +9,7 @@ function getElement(selection) {
 };
 
 function Gallery(element){
-  
+
 }
+
+const nature = new 
