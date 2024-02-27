@@ -13,7 +13,9 @@ function Gallery(element){
   this.modal = getElement(".modal");
   this.modalImg = getElement(".main-img");
   this.modalImges = getElement(".modal-images");
-  this.closeBtn = getElement(".close-btn")
+  this.closeBtn = getElement(".close-btn");
+  this.nextBtn = getElement(".next-btn");
+  this.prevBtn = getElement(".prev-btn");
 }
 
 const nature = new Gallery(getElement(".nature"));
