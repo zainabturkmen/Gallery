@@ -10,6 +10,9 @@ function getElement(selection) {
 
 function Gallery(element){
   this.list = [...element.querySelectorAll(".img")];
+  this.modal = getElement(".modal");
+  this.modalImg = getElement(".main-img")
+  this.modalImges = getElement(".modal-images")
 }
 
 const nature = new Gallery(getElement(".nature"));
