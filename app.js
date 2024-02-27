@@ -6,4 +6,6 @@ function getElement(selection) {
   throw new Error(
     `Please check "${selection}" selector, no such element exists`
   );
-}
+};
+
+
