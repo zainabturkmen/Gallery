@@ -18,5 +18,6 @@ function Gallery(element){
   this.prevBtn = getElement(".prev-btn");
 };
 
+
 const nature = new Gallery(getElement(".nature"));
 const city = new Gallery(getElement(".city"));
