@@ -101,7 +101,7 @@ const city = new Gallery(getElement(".city"));
 const Hi = () => console.log("hi");
 
 const double = value => value + 3
-const num = double(4)
+const num = double(4);
 console.log(num);
 
 // two params;
