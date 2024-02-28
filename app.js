@@ -81,5 +81,9 @@ Gallery.prototype.prevImage = function(){
   this.setMainImages(prev);
 };
 
+Gallery.prototype.selectImage = function(){
+  
+}
+
 const nature = new Gallery(getElement(".nature"));
 const city = new Gallery(getElement(".city"));
