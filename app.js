@@ -59,9 +59,9 @@ Gallery.prototype.setMainImages = function(selectedImage){
 
 Gallery.prototype.closeModal = function(){
   this.modal.classList.remove("open");
-  this.closeBtn.addEventListener("click", this.closeModal);
-  this.nextImage.addEventListener("click", this.nextImage);
-  this.prevImage.addEventListener("click", this.prevImage);
+  this.closeBtn.removeEventListener("click", this.closeModal);
+  this.nextImage.removeEventListener("click", this.nextImage);
+  this.prevImage.removeEventListener("click", this.prevImage);
   
 }
 
