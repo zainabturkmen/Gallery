@@ -113,7 +113,7 @@ const multiply = (num1, mun2) => {
 }
 
 const sum = multiply(3,7);
-console.log(sum)
+console.log(sum);
 
 // Destructuring; 
 
