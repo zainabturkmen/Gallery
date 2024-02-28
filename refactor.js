@@ -37,7 +37,7 @@ class Gallery{
               }
           }.bind(this)
         );
-    }
+    };
 
     openModal(selectedImage, list){
         this.setMainImages(selectedImage);
