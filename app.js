@@ -18,13 +18,14 @@ function Gallery(element){
   this.closeBtn = getElement(".close-btn");
   this.nextBtn = getElement(".next-btn");
   this.prevBtn = getElement(".prev-btn");
-  // bind functions
-  this.container.addEventListener("click")
+  // bind functionsd()
+  this.openModal = this.openModal.bind(this);
+  this.container.addEventListener("click", this.openModal);
 
 };
 
 Gallery.prototype.openModal = function{
-  
+
 }
 
 
