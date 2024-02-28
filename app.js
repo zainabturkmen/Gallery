@@ -70,6 +70,7 @@ Gallery.prototype.nextImage = function(){
   const next = selected.nextElementSibling || this.modalImges.firstElementChild;
   selected.classList.remove("selected");
   next.classList.add("selected");
+  this.setMainImages
 }
 Gallery.prototype.prevImage = function(){
 
