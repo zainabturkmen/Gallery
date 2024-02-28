@@ -27,7 +27,6 @@ function Gallery(element){
     "click", 
     function(e){
       this.openModal();
-
     }.bind(this)
   );
 };
