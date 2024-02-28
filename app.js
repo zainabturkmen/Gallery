@@ -23,6 +23,9 @@ function Gallery(element){
   // let self = this;
   // bind functionsd()
   // this.openModal = this.openModal.bind(this);
+  this.closeModal = this.closeModal.bind(this);
+  this.nextImage = this.nextImage.bind(this);
+  this.prevImage = this.prevImage.bind(this);
   // event container
   this.container.addEventListener(
     "click", 
