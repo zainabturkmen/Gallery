@@ -63,7 +63,7 @@ class Gallery{
         this.nextBtn.removeEventListener("click", this.nextImage);
         this.prevBtn.removeEventListener("click", this.prevImage);
         this.modalImges.removeEventListener("click", this.choseImage);
-    }
+    };
 
     nextImage(){
         const selected = this.modalImges.querySelector(".selected");
