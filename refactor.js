@@ -88,7 +88,7 @@ class Gallery{
             this.setMainImages(e.target)
             e.target.classList.add("selected")
           }
-    }
+    };
 };
 
 const nature = new Gallery(getElement(".nature"));
