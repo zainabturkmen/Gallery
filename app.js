@@ -104,7 +104,7 @@ const double = value => value + 3
 const num = double(4);
 console.log(num);
 
-// two params
+// two params;
  
 const multiply = (num1, mun2) => {
   const result = num1 * mun2;
