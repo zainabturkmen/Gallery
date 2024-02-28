@@ -47,8 +47,8 @@ Gallery.prototype.openModal = function(selectedImage, list){
   this.closeBtn.addEventListener("click", this.closeModal);
   this.nextBtn.addEventListener("click", this.nextImage);
   this.prevBtn.addEventListener("click", this.prevImage);
+  this.modalImges.addEventListener("click", this.choseImage);
 };
-
 
 
 Gallery.prototype.setMainImages = function(selectedImage){
@@ -62,6 +62,7 @@ Gallery.prototype.closeModal = function(){
   this.closeBtn.removeEventListener("click", this.closeModal);
   this.nextBtn.removeEventListener("click", this.nextImage);
   this.prevBtn.removeEventListener("click", this.prevImage);
+  this.modalImges.removeEventListener("click", this.choseImage);
   
 }
 
@@ -81,8 +82,8 @@ Gallery.prototype.prevImage = function(){
   this.setMainImages(prev);
 };
 
-Gallery.prototype.selectImage = function(){
-  
+Gallery.prototype.choseImage = function(){
+
 }
 
 const nature = new Gallery(getElement(".nature"));
