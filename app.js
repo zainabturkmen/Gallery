@@ -14,6 +14,7 @@ function Gallery(element){
   // target
   this.modal = getElement(".modal");
   this.modalImg = getElement(".main-img");
+  this.imageName = getElement(".image-name")
   this.modalImges = getElement(".modal-images");
   this.closeBtn = getElement(".close-btn");
   this.nextBtn = getElement(".next-btn");
@@ -38,8 +39,8 @@ Gallery.prototype.openModal = function(selectedImage, list){
   this.modal.classList.add("open")
 }
 
-Gallery.prototype.setMainImages = function(){
-  
+Gallery.prototype.setMainImages = function(selectedImage){
+
 }
 
 const nature = new Gallery(getElement(".nature"));
