@@ -115,3 +115,7 @@ const multiply = (num1, mun2) => {
 const sum = multiply(3,7);
 console.log(sum);
 
+// Destructuring 
+
+const fruits = ["orange", "banana", "lemon"];
+const friends = ["john", "peter", "bob", "anna"];
