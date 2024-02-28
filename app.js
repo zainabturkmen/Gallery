@@ -28,13 +28,13 @@ function Gallery(element){
     function(e){
         if(e.target.classList.contains("img")){
           this.openModal(e.target, this.list);
-
         }
     }.bind(this)
   );
 };
 
 Gallery.prototype.openModal = function(selectedImage, list){
+  console.log(selectedImage, list);
   this.modal.classList.add("open")
 }
 
