@@ -66,7 +66,8 @@ Gallery.prototype.closeModal = function(){
 }
 
 Gallery.prototype.nextImage = function(){
-
+  const selected = this.modalImges.querySelector(".selected");
+  
 }
 Gallery.prototype.prevImage = function(){
 
