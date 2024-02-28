@@ -83,7 +83,9 @@ Gallery.prototype.prevImage = function(){
 };
 
 Gallery.prototype.choseImage = function(){
-
+  if(e.target.classList.contains("modal-img")){
+    this.setMainImages(e.target)
+  }
 }
 
 const nature = new Gallery(getElement(".nature"));
