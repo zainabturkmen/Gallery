@@ -119,3 +119,6 @@ console.log(sum);
 
 const fruits = ["orange", "banana", "lemon"];
 const friends = ["john", "peter", "bob", "anna"];
+
+const [j, p, b, a] = friends;
+console.log(friends)
