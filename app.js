@@ -72,6 +72,7 @@ Gallery.prototype.nextImage = function(){
   next.classList.add("selected");
   this.setMainImages(next);
 }
+
 Gallery.prototype.prevImage = function(){
 
 }
