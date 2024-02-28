@@ -79,7 +79,7 @@ Gallery.prototype.prevImage = function(){
   selected.classList.remove("selected");
   prev.classList.add("selected");
   this.setMainImages(prev);
-}
+};
 
 const nature = new Gallery(getElement(".nature"));
 const city = new Gallery(getElement(".city"));
