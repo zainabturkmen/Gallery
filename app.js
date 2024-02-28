@@ -24,7 +24,7 @@ function Gallery(element){
 
 };
 
-Gallery.prototype.openModal = function{
+Gallery.prototype.openModal = function(){
 
 }
 
