@@ -109,7 +109,7 @@ console.log(num);
 const multiply = (num1, mun2) => {
   const result = num1 * mun2;
 
-  return result
+  return result;
 };
 
 const sum = multiply(3,7);
