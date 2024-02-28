@@ -43,9 +43,23 @@ Gallery.prototype.openModal = function(selectedImage, list){
   this.modal.classList.add("open")
 };
 
+
+
 Gallery.prototype.setMainImages = function(selectedImage){
   this.modalImg.src = selectedImage.src 
   this.imageName.textContent = selectedImage.title;
+}
+
+
+Gallery.prototype.closeModal = function(){
+  this.modal.classList.remove("open")
+}
+
+Gallery.prototype.nextImage = function(){
+
+}
+Gallery.prototype.prevImage = function(){
+
 }
 
 const nature = new Gallery(getElement(".nature"));
