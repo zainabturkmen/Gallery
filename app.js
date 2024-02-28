@@ -112,5 +112,5 @@ const multiply = (num1, mun2) => {
   return result;
 };
 
-const sum = multiply(3,7)
+const sum = multiply(3,7);
 console.log(sum);
