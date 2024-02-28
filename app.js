@@ -99,3 +99,7 @@ const city = new Gallery(getElement(".city"));
 // some examples
 
 const Hi = () => console.log("hi");
+
+const double = value => value + 3
+const num = double(4)
+console.log(num);
