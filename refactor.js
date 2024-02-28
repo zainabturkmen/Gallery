@@ -55,7 +55,7 @@ class Gallery{
     setMainImages(selectedImage){
         this.modalImg.src = selectedImage.src 
         this.imageName.textContent = selectedImage.title;
-    }
+    };
 
     closeModal(){
         this.modal.classList.remove("open");
