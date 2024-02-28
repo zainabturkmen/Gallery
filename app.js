@@ -20,7 +20,11 @@ function Gallery(element){
   this.prevBtn = getElement(".prev-btn");
   // bind functionsd()
   this.openModal = this.openModal.bind(this);
-  this.container.addEventListener("click", this.openModal);
+  this.container.addEventListener(
+    "click", 
+    function(e){
+
+  });
 
 };
 
