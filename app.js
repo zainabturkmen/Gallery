@@ -40,7 +40,8 @@ Gallery.prototype.openModal = function(selectedImage, list){
 }
 
 Gallery.prototype.setMainImages = function(selectedImage){
-
+  this.modalImg.src = selectedImage.src 
+  this.imageName.textContent = selectedImage.title;
 }
 
 const nature = new Gallery(getElement(".nature"));
