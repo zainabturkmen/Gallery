@@ -96,7 +96,7 @@ const nature = new Gallery(getElement(".nature"));
 const city = new Gallery(getElement(".city"));
 
 
-// some examples
+// some examples;
 
 const Hi = () => console.log("hi");
 
