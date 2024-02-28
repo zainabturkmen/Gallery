@@ -11,12 +11,16 @@ function getElement(selection) {
 function Gallery(element){
   this.container = element;
   this.list = [...element.querySelectorAll(".img")];
+  // target
   this.modal = getElement(".modal");
   this.modalImg = getElement(".main-img");
   this.modalImges = getElement(".modal-images");
   this.closeBtn = getElement(".close-btn");
   this.nextBtn = getElement(".next-btn");
   this.prevBtn = getElement(".prev-btn");
+  // bind functions
+  
+
 };
 
 
