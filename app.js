@@ -40,7 +40,10 @@ Gallery.prototype.openModal = function(selectedImage, list){
     return `<img src="${image.src}" title="${image.title}" 
     dataset-id="${image.dataset.id}" class="${selectedImage.dataset.id === image.dataset.id? "modal-img selected": "modal-img"}"/>`
   }).join("");
-  this.modal.classList.add("open")
+  this.modal.classList.add("open");
+  this.closeBtn.addEventListener("click", this.closeModal);
+  this.nextImage.addEventListener("click", this.nextImage);
+  this.prevImage.addEventListener("click", this.prevImage);
 };
 
 
