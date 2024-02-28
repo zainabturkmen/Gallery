@@ -23,7 +23,7 @@ function Gallery(element){
   this.container.addEventListener(
     "click", 
     function(e){
-
+      this.openModal();
   });
 
 };
