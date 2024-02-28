@@ -26,8 +26,10 @@ function Gallery(element){
   this.container.addEventListener(
     "click", 
     function(e){
-        if(e.target.classList.contains("img"))
-      this.openModal();
+        if(e.target.classList.contains("img")){
+          this.openModal(e.target, this.list);
+
+        }
     }.bind(this)
   );
 };
