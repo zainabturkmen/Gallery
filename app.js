@@ -19,7 +19,7 @@ function Gallery(element){
   this.nextBtn = getElement(".next-btn");
   this.prevBtn = getElement(".prev-btn");
   // bind functions
-  
+  this.container.addEventListener("click")
 
 };
 
