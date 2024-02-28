@@ -50,7 +50,7 @@ class Gallery{
         this.nextBtn.addEventListener("click", this.nextImage);
         this.prevBtn.addEventListener("click", this.prevImage);
         this.modalImges.addEventListener("click", this.choseImage);
-    }
+    };
 
     setMainImages(selectedImage){
         this.modalImg.src = selectedImage.src 
