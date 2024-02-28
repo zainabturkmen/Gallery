@@ -25,7 +25,7 @@ function Gallery(element){
 };
 
 Gallery.prototype.openModal = function(){
-
+  this.modal.classList.add("open")
 }
 
 
