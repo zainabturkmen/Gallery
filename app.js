@@ -26,12 +26,13 @@ function Gallery(element){
   this.container.addEventListener(
     "click", 
     function(e){
+        if(e.target.classList.contains(""))
       this.openModal();
     }.bind(this)
   );
 };
 
-Gallery.prototype.openModal = function(){
+Gallery.prototype.openModal = function(selectedImage, list){
   this.modal.classList.add("open")
 }
 
