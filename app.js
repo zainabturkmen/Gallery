@@ -18,6 +18,8 @@ function Gallery(element){
   this.closeBtn = getElement(".close-btn");
   this.nextBtn = getElement(".next-btn");
   this.prevBtn = getElement(".prev-btn");
+  // self ref
+  let self = this;
   // bind functionsd()
   // this.openModal = this.openModal.bind(this);
   // event container
