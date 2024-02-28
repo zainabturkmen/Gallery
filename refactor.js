@@ -71,7 +71,7 @@ class Gallery{
         selected.classList.remove("selected");
         next.classList.add("selected");
         this.setMainImages(next);
-    }
+    };
 
     prevImage(){
         const selected = this.modalImges.querySelector(".selected");
