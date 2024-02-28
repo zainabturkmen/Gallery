@@ -68,6 +68,8 @@ Gallery.prototype.closeModal = function(){
 Gallery.prototype.nextImage = function(){
   const selected = this.modalImges.querySelector(".selected");
   const next = selected.nextElementSibling || this.modalImges.firstElementChild;
+  selected.classList.remove("selected");
+  next.classList.add("selected")
 }
 Gallery.prototype.prevImage = function(){
 
