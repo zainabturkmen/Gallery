@@ -79,7 +79,7 @@ class Gallery{
         selected.classList.remove("selected");
         prev.classList.add("selected");
         this.setMainImages(prev);
-    }
+    };
 
     choseImage(e){
         if(e.target.classList.contains("modal-img")){
